@@ -1,8 +1,8 @@
 public class HelloWorld {
-    public static void main(String[] args) {
+    
+    public static void main(final String[] args) {
         System.out.println("Hello World");
         start();
-        sageHallo();
     }
 
     /**
@@ -10,10 +10,11 @@ public class HelloWorld {
      */
     public static void start() {
         System.out.println("I am a new method!");
+        sageHallo();
     }
 
     /**
-     * Gibt die Zeile "Hallo!" auf Stdout aus.
+     * Schreibt eine Begrüßung in die Standard-Ausgabe.
      */
     public static void sageHallo() {
         System.out.println("Hallo!");
