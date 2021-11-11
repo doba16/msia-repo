@@ -5,6 +5,9 @@ public class HelloWorld {
         start();
     }
 
+    /**
+     * Gibt den Text "I am a new method!" aus.
+     */
     public static void start() {
         System.out.println("I am a new method!");
         sageHallo();
