@@ -1,16 +1,21 @@
+
 public final class HelloWorld {
-    public static void main(String[] args) {
+    
+    public static void main(final String[] args) {
         System.out.println("Hello World");
         start();
-        sageHallo();
-    }
-
-    public static void start() {
-        System.out.println("I am a new method!");
     }
 
     /**
-     * This method prints Hallo to the standard output
+     * Gibt den Text "I am a new method!" aus.
+     */
+    public static void start() {
+        System.out.println("I am a new method!");
+        sageHallo();
+    }
+
+    /**
+     * Schreibt eine Begrüßung in die Standard-Ausgabe.
      */
     public static void sageHallo() {
         System.out.println("Hallo!");
