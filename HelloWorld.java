@@ -1,4 +1,4 @@
-public class HelloWorld {
+public final class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
         start();
@@ -9,6 +9,9 @@ public class HelloWorld {
         System.out.println("I am a new method!");
     }
 
+    /**
+     * This method prints Hallo to the standard output
+     */
     public static void sageHallo() {
         System.out.println("Hallo!");
     }
